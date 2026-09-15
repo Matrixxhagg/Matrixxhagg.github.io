@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header,
+#center,
+#footer {
+  display: flex;
+  gap: 10px;
+  max-width: 800px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+#header {
+  margin-top: 20px;
+}
+
+.col-4,
+.col-12,
+.col-6 {
+  border: 2px solid black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.col-4 {
+  background: aqua;
+  flex: 0 0 calc(33.33% - 7px);
+}
+
+.col-12 {
+  background: #80c0d9;
+  flex: 0 0 100%;
+}
+
+.col-6 {
+  background: #afdef0;
+  flex: 0 0 calc(50% - 5px);
+}
